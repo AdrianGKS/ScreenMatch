@@ -1,6 +1,5 @@
 package br.com.adrian.screenmatch.service;
 
-import br.com.adrian.screenmatch.model.DadosSerie;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
