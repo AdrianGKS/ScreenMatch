@@ -12,11 +12,11 @@ Já a Stream API serve para processar coleções de objetos. É uma sequência d
 A seguir alguns exemplos do que foi feito dentro do projeto:
 
 <p align="center">
-   <img src="src/main/br/com/adrian/screenmatch/images/img.png" alt="Exemplo0"/>
+   <img src="src/main/java/br/com/adrian/screenmatch/images/img.png" alt="Exemplo0"/>
 </p>
 <p align="center">
-   <img src="src/main/br/com/adrian/screenmatch/images/img_1.png" alt="Exemplo1"/>
+   <img src="src/main/java/br/com/adrian/screenmatch/images/img_1.png" alt="Exemplo1"/>
 </p>
 <p align="center">
-   <img src="src/main/br/com/adrian/screenmatch/images/img_2.png" alt="Exemplo2"/>
+   <img src="src/main/java/br/com/adrian/screenmatch/images/img_2.png" alt="Exemplo2"/>
 </p>
