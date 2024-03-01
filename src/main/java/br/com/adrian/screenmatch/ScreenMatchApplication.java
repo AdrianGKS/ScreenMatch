@@ -1,6 +1,8 @@
 package br.com.adrian.screenmatch;
 
+import br.com.adrian.screenmatch.model.DadosSerie;
 import br.com.adrian.screenmatch.service.ConsumoAPI;
+import br.com.adrian.screenmatch.service.ConverteDados;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -19,5 +21,8 @@ public class ScreenMatchApplication implements CommandLineRunner {
         System.out.println(json);
 //        json = consumoAPI.obterDados("https://coffee.alexflipnote.dev/random.json");
 //        System.out.println(json);
+        ConverteDados conversor = new ConverteDados();
+        DadosSerie dados = conversor.obterDados(json, DadosSerie.class);
+        System.out.println(dados);
     }
 }

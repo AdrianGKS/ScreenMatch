@@ -1,9 +1,11 @@
 package br.com.adrian.screenmatch.model;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+@JsonIgnoreProperties(ignoreUnknown = true) //ignora os dados que não estão definidos no record
 public record DadosSerie(
-        @JsonAlias("title") //define um ou mais apelidos para o nome da propriedade JSON associada ao campo Java.
+        @JsonAlias("Title") //define um ou mais apelidos para o nome da propriedade JSON associada ao campo Java.
         String titulo,
 
         @JsonAlias("totalSeasons")
