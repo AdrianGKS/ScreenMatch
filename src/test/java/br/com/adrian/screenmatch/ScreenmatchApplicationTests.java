@@ -1,4 +1,4 @@
-package br.com.adrian.screenmatch.screenmatch;
+package br.com.adrian.screenmatch;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
